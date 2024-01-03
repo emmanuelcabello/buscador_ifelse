@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TENISCAPA</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+
+        <div class="info">
+            <p>Avenida Insurgentes dentro de la UIC</p>
+        </div>  
+        
+        <input id="buscar" class="buscar" placeholder="Buscar alumn@">
+        <button id="boton" class="boton">Buscar</button>
+        <div id="panel" class="panel"></div>
+
+        <script>
+            boton.onclick = function(){
+                var buscar = document.getElementById("buscar").value;
+                if (buscar == "Alumno"){
+                    panel.innerHTML = "Escribe el nombre de un alumno de Teniscapa";
+                }else if (buscar == "Daniel Ortiz"){
+                    panel.innerHTML = "Alumno Activo";
+                }else if (buscar == "Cristian Pabello"){
+                    panel.innerHTML = "Alumno Activo";
+                }else if (buscar == "Cristopher Pabello"){
+                    panel.innerHTML = "Alumno Activo";
+                }else if (buscar == "Fernanda Zamora"){
+                    panel.innerHTML = "Alumno Inactivo";
+                }else{
+                    panel.innerHTML = "No se ha encontrado el alumno";
+                }
+            }
+        </script>
+        
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Clases</a></li>
+                    <li><a href="#">Horarios</a></li>
+                    <li><a href="#">Sobre nosotros</a></li>
+                </ul>
+            </nav>
+            <div class="redes">
+                <a href="#"><img src="image/instagram.png" alt=""></a>
+            </div>
+        </header>
+
+        <section>
+            <h1>SOMOS TENISCAPA</h1>
+            <a href="#">Conocer mas</a>
+        </section>
+    </body>
+    </html>

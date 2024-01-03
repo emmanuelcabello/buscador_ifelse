@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buscar {
+    width: 600px;
+    height: 70px;
+    border-radius: 10px;
+    border: solid 2px; color: blue;
+}
+
+.boton{
+    width: 50px ;
+    height: 40px;
+    background: color(srgb rgb(9, 30, 221) green blue)
+}
+
+
+
+body{
+    font-family: 'Merienda';
+    background-image: url(image/tenis1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.redes a img{
+    width: 40px;
+}
+
+.info{
+    background-color: #100f0f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header{
+    max-width: 170px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 65px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f1f3f7;
+}
+section{
+    padding-top: 135px;
+    text-align: center;
+}
+section h1{
+    font-size: 80px;
+    color:#1f1f20
+}
+
+section a{
+    text-decoration:none ;
+    color: #000;
+    border: 6px solid #000
+}
